@@ -20,7 +20,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-        - image: prinart/udagram-api-feed:v1
+        - image: prinart/udagram-api-feed:v2
           name: backend-feed
           imagePullPolicy: Always
           resources:

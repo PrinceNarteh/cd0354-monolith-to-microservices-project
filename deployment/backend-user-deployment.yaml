@@ -20,7 +20,7 @@ spec:
         service: backend-user
     spec:
       containers:
-        - image: prinart/udagram-api-user:v1
+        - image: prinart/udagram-api-user:v2
           name: backend-user
           imagePullPolicy: Always
           resources:
